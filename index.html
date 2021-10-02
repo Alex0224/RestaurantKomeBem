@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo-lunchs.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>KomeBem</title>
+</head>
+
+<body>
+    <div class="container-image-hub">
+        <header>
+            <div class="logotipo-restaurante">
+                <a href="index.html">Area Da Logo</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Cardápio</a></li>
+                    <li><a href="index.html">Eventos</a></li>
+                    <li><a href="index.html">Sobre nós</a></li>
+                    <li><a href="index.html">Contato</a></li>
+                </ul>
+            </nav>
+                <button class="btnAgendarMesa" type="button">Agendar Mesa</button>
+        </header>
+        <section class="container-about-restaurant">
+            <h3>Um pouco sobre nós!</h3>
+            <div class="areaText">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus facere, magnam fuga reiciendis aliquam
+                    tempora quam qui est fugit ipsum quas voluptate excepturi reprehenderit? Totam molestiae accusantium
+                    maxime ea eligendi?</p>
+            </div>
+
+            <button type="button" class="btnConhecerMais">Conheça mais</button>
+            <div class="areaIcons">
+                <i class="im im-whatsapp"></i>
+                <i class="im im-instagram"></i>
+                <i class="im im-facebook"></i>
+            </div>
+    </div>
+        </section>
+        <section class="cardapio">
+            <nav class="nav-menu">
+                <h2 class="titleMenu">Selecione o que deseja</h2>
+                <div onclick="chamarCafe()" class="btnBreakfest">
+                    <img src="images/logo-breakfest.png" alt="Imagem que representa um café da manhã">
+                    <h2>Café da Manhã</h2>
+                </div>
+                <div onclick="chamarAlmoco()" class="btnLunchs">
+                    <img src="images/logo-lunchs.png" alt="Imagem que representa um almoço">
+                    <h2>Almoço</h2>
+                </div>
+                <div onclick="chamarJanta()" class="btnDinner">
+                    <img src="images/logo-dinner.png" alt="Imagem que representa um jantar">
+                    <h2>Janta</h2>
+                </div>
+                <div onclick="chamarDrinks()" class="btnDrinks">
+                    <img src="images/logo-drinks.png" alt="Imagem que representa um drink">
+                    <h2>Drinks</h2>
+                </div>
+            </nav>
+            <div class="areaDasImagens">
+                <div class="areaBreakfest">
+                        <img src="images/image-cardapio-breakfest-1.webp" alt="Café da Manhã 1">
+                        <img src="images/image-cardapio-breakfest-2.webp" alt="Café da Manhã 2">
+                        <img src="images/image-cardapio-breakfest-3.webp" alt="Café da Manhã 3">                       
+                        <img src="images/image-cardapio-breakfest-4.webp" alt="Café da Manhã 4">      
+                </div>
+                <div class="areaLunchs">
+                        <img src="images/image-cardapio-breakfest-1.webp" alt="Almoço 1">
+                        <img src="images/image-cardapio-breakfest-2.webp" alt="Almoço 2">
+                        <img src="images/image-cardapio-breakfest-3.webp" alt="Almoço 3">
+                        <img src="images/image-cardapio-breakfest-4.webp" alt="Almoço 4">
+                </div>
+                <div class="areaDinner">
+                        <img src="images/image-cardapio-breakfest-1.webp" alt="Janta 1">
+                        <img src="images/image-cardapio-breakfest-2.webp" alt="Janta 2">
+                        <img src="images/image-cardapio-breakfest-3.webp" alt="Janta 3">
+                        <img src="images/image-cardapio-breakfest-4.webp" alt="Janta 4">
+                </div>
+                <div class="areaDrinks">
+                        <img src="images/image-cardapio-drinks-1.webp" alt="Drinks 1">
+                        <img src="images/image-cardapio-drinks-2.webp" alt="Drinks 2">
+                        <img src="images/image-cardapio-drinks-3.webp" alt="Drinks 3">
+                        <img src="images/image-cardapio-drinks-4.webp" alt="Drinks 4">
+                </div>
+            </div>
+        </section>
+        <script src="javascript/script.js"></script>
+</body>
+
+</html>
